@@ -1,0 +1,16 @@
+<projectDescription>
+  <name>solrsample.it.launcher</name>
+  <comment>Integration Tests Launcher for solrsample</comment>
+  <projects>
+    <project>solrsample.core</project>
+    <project>solrsample.it.tests</project>
+  </projects>
+  <buildSpec>
+    <buildCommand>
+      <name>org.eclipse.jdt.core.javabuilder</name>
+    </buildCommand>
+  </buildSpec>
+  <natures>
+    <nature>org.eclipse.jdt.core.javanature</nature>
+  </natures>
+</projectDescription>

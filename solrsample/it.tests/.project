@@ -1,0 +1,15 @@
+<projectDescription>
+  <name>solrsample.it.tests</name>
+  <comment>Bundles for Integration Tests for solrsample</comment>
+  <projects>
+    <project>solrsample.core</project>
+  </projects>
+  <buildSpec>
+    <buildCommand>
+      <name>org.eclipse.jdt.core.javabuilder</name>
+    </buildCommand>
+  </buildSpec>
+  <natures>
+    <nature>org.eclipse.jdt.core.javanature</nature>
+  </natures>
+</projectDescription>
