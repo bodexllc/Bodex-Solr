@@ -1,0 +1,28 @@
+<%@include file="/libs/foundation/global.jsp"%>
+
+<html>
+
+    <center>
+    <h1>******SEARCH FORM******</h1>
+  <!--SEARCH FORM STARTS-->
+    <form action="http://localhost:4502/bin/bodex/bodexsolrsearch" method="GET" >
+        Enter field tag here: <input type="text" name="searchByTag" required/> <br>
+        Enter Search string here: <input type="text" name="searchString" required/><br>
+        <input type="submit" value="Search" />
+    </form>
+  <!--SEARCH FORM ENDS-->
+
+<br><br><br><br>
+    <h1>******POST FORM******</h1>
+
+  <!--POST FORM STARTS-->
+    <form action="http://localhost:4502/bin/bodex/bodexsolrpost" method="GET" >
+        Enter field tag here: <input type="text" name="fillByTag" required/> <br>
+        Enter string here: <input type="text" name="fillByString" required/><br>
+        <input type="submit" value="Post" />
+    </form>
+  <!--POST FORM ENDS-->
+
+    </center>
+
+</html>

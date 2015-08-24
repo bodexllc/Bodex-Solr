@@ -1,0 +1,13 @@
+<%@include file="/libs/foundation/global.jsp"%>
+
+<html>
+
+  <!--POST FORM STARTS-->
+    <form action="http://localhost:4502/bin/bodex/bodexsolrpost" method="GET" >
+        Enter field tag here: <input type="text" name="fillByTag" required/> <br>
+        Enter string here: <input type="text" name="fillByString" required/><br>
+        <input type="submit" value="Post" />
+    </form>
+  <!--POST FORM ENDS-->
+
+</html>
